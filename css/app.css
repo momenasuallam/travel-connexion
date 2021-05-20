@@ -1,0 +1,59 @@
+:root {
+  --text1: #383838;
+  --text2: #18244B;
+  --text3: #F89C1C;
+  --text4: #0A0A0A;
+  --black: #000000;
+  --white: #ffffff;
+ 
+}
+
+/* Font */
+@font-face {
+  	font-family: "barlow-reg";
+  	src: url("../fonts/Barlow-Regular.ttf") format("truetype");
+}
+@font-face {
+  	font-family: "barlow-med";
+  	src: url("../fonts/Barlow-Medium.ttf") format("truetype");
+}
+@font-face {
+  	font-family: "barlow-semibold";
+  	src: url("../fonts/Barlow-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  	font-family: "barlow-bold";
+  	src: url("../fonts/Barlow-Bold.ttf") format("truetype");
+}
+
+
+/* Main stuff */
+body {
+	font-family: barlow-reg;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
